@@ -2,6 +2,7 @@
 # > descr: Description of your project
 # > demo: Link to your project
 # > tags: List of technologies you used in your projects
+# > github: Github link to your project
 #
 # Example of a project
 # - name: project X
@@ -13,21 +14,52 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
-  tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
-
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Dubai Real Estate Analysis
+  descr: "In this project, we scrape data from Bayut.com to create a dataset of over 50 thousand listings to analyse real estate prices in Dubai. We visualized the average prices for each area using PowerBI and used this report to identify the overall market rates by neighborhood."
+  github: https://github.com/itsmokha/Dubai-Real-Estate-Analysis
   tags:
     - tag: Python
-    - tag: Django
+    - tag: pandas
+    - tag: Web Scraping
+    - tag: PowerBI
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Advertisement Detection using Machine Learning
+  descr: "The aim of this project is to create a machine learning model that can classify URLs as ads or trackers.To this end, we have tried various machine learning algorithms to find the most promising algorithm for this project."
+  github: https://github.com/itsmokha/Advertisement-detection-using-machine-learning
+  tags:
+    - tag: Python
+    - tag: Machine Learning
+    - tag: Random Forests
+    - tag: XGBoost
+    - tag: SVM
+    - tag: Logistic Regression
+    - tag: LightGBM
+
+- name: Customer Conversion Rate using Data Analysis
+  descr: "This project aims to visualise and analyse the effect of certain promotions on customer conversion. Using this information, the website can identify users with the most conversion potential and can understand the effects of different types of offers."
+  github: https://github.com/itsmokha/Customer-Conversion
+  tags:
+    - tag: Python
+    - tag: Machine Learning
+    - tag: XGBoost
+    - tag: seaborn
+    - tag: GridSearch
+    - tag: Logistic Regression
+
+- name: Twitter Sentiment Analysis
+  descr: "Analysis of dataset containing over 10,000 tweets to identify the sentiment expressed with the help of natural language processing, using Tensorflow and graphs to provide visual representation of collected data, achieving a sentiment classification accuracy of 92% using various Machine Learning algorithms such as neural networks, logistic regression, XGBoost and Random forests."
+  demo: https://colab.research.google.com/drive/1CmpOogK22GeCv9w1CaWNJEE4PE88LUit?usp=sharing
+  tags:
+    - tag: Neural Networks
+    - tag: NLP
+    - tag: Logistic Regression
+    - tag: Random Forests
+
+- name: Amazon Sentiment Analysis
+  descr: "Analysis of dataset containing over 227,000 Amazon reviews to identify customer satisfaction with the product with the help of natural language processing, using Tensorflow and graphs to provide visual representation of the data, achieving sentiment classification of 90% and identified overall customer satisfaction with various products using various Machine Learning algorithms such as neural networks, regression, XGBoost , LightGBM, Random forests, SVM classifiers and hyper parameter tuning."
+  demo: https://colab.research.google.com/drive/1U5yuN0vfs3_LS_eNrchVcksUDZ6ZxDae?usp=sharing
+  tags:
+    - tag: Neural Networks
+    - tag: NLP
+    - tag: Logistic Regression
+    - tag: Random Forests

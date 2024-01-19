@@ -1,42 +1,36 @@
-# > name: Name of your skill
-# > weight: Describes how good you know this skill - values from 1 up to 5
+# > name: Name of your programming language
+# > weight: Describes how good you know the language - values from 1 up to 5
 #
-# Example:
-# - name: Git
+# Example of a Language
+# - name: Language
 #   weight: 5
 
-- name: TypeScript
+- name: C
   weight: 5
 
-- name: JavaScript
+- name: SQL
   weight: 4
-
-- name: Python
-  weight: 2
-
-- name: HTML5
-  weight: 4
-
-- name: CSS3
-  weight: 3
-
-- name: SASS
-  weight: 3
 
 - name: Java
-  weight: 1
+  weight: 3
 
-- name: Dart
-  weight: 1
+- name: Python
+  weight: 5
 
-- name: Swift
-  weight: 1
-
-- name: Kotlin
-  weight: 1
+- name: DAX
+  weight: 2
 
 - name: C++
+  weight: 3
+
+- name: HTML
+  weight: 3
+
+- name: JavaScript
   weight: 2
 
-- name: Ruby
+- name: CSS
   weight: 2
+
+- name: Bash Scripting
+  weight: 3

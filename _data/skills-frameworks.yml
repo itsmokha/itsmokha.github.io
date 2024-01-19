@@ -1,33 +1,30 @@
-# > name: Name of your skill
-# > weight: Describes how good you know this skill - values from 1 up to 5
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
 #
-# Example:
-# - name: Git
+# Example of a framework
+# - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: NLP
+  weight: 2
+
+- name: pandas
   weight: 5
 
-- name: AngularJS
-  weight: 3
-
-- name: React
+- name: Numpy
   weight: 4
 
-- name: Node
-  weight: 1
+- name: Scikit-learn
+  weight: 5
 
-- name: Flutter
-  weight: 2
-
-- name: Express
-  weight: 3
-
-- name: Django
-  weight: 1
-
-- name: Spring
-  weight: 2
-
-- name: Rails
+- name: TensorFlow
   weight: 4
+
+- name: Keras
+  weight: 5
+
+- name: Matplotlib
+  weight: 5
+
+- name: Keras
+  weight: 5
