@@ -287,6 +287,7 @@ DEPENDENCIES
   addressable (= 2.8.6)
   base64 (= 0.2.0)
   bigdecimal (= 3.1.6)
+  bundler (= 2.5.5)
   concurrent-ruby (= 1.1.10)
   dotenv
   drb (= 2.2.0)
