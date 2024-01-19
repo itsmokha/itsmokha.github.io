@@ -15,19 +15,19 @@
       "options": {
         "images": [
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+            "src": "https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg",
             "type": "image/svg+xml"
           },
           {
-            "src": "https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg",
+            "src": "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
             "type": "image/svg+xml"
           },
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+            "src": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
             "type": "image/svg+xml"
           },
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+            "src": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg",
             "type": "image/svg+xml"
           },
           {
@@ -35,15 +35,15 @@
             "type": "image/svg+xml"
           },
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+            "src": "hhttps://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
             "type": "image/svg+xml"
           },
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+            "src": "https://raw.githubusercontent.com/detain/svg-logos/af43b58bee054f40b2c215d97b983d03b190f0d4/svg/t/tableau-software.svg",
             "type": "image/svg+xml"
           },
           {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
             "type": "image/svg+xml"
           }
 
