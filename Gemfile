@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "bundler", "2.5.5"
 gem "dotenv"
-gem "github-pages"
+gem "github-pages", group: :jekyll_plugins
 gem "jekyll"
 gem "jekyll-github-metadata"
 gem 'concurrent-ruby', '1.1.10'
