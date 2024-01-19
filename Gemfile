@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "bundler", "2.5.5"
 gem "dotenv"
 gem "github-pages"
 gem "jekyll"
