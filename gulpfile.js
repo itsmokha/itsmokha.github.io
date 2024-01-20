@@ -144,4 +144,4 @@ function deploy() {
   return gulp.src('./_site/**/*').pipe(ghpages());
 }
 
-gulp.task('deploy', gulp.series(jekyllBuild, gulp.parallel(deploy)));
+gulp.task('deploy', gulp.series(jekyll, gulp.parallel(deploy)));
