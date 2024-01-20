@@ -8,6 +8,7 @@ description: Omar's Personal Website
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
+updated: 2024
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
@@ -69,7 +70,7 @@ timeline_title: Education & Experience
 
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-# cv_download_link: /assets/docs/cv_en.pdf
+cv_download_link: https://raw.githubusercontent.com/itsmokha/itsmokha.github.com/main/Mohammed-Omar-Khan-ml.pdf
 
 
 ### PROJECTS SECTION ###
