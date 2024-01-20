@@ -135,3 +135,13 @@ var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
  * compile the Jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', gulp.parallel(serve, watch));
+
+
+/**
+ * Deploy to GitHub Pages
+ */
+function deploy() {
+  return gulp.src('./_site/**/*').pipe(ghpages());
+}
+
+gulp.task('deploy', gulp.series(jekyllBuild, gulp.parallel(deploy)));
