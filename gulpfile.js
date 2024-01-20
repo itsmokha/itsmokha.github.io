@@ -7,7 +7,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var cp = require('child_process');
-const ghpages = require('gulp-gh-pages');
+const ghpages = require('gulp-gh-pages');   
 
 /**
  * Compile and minify sass
@@ -141,8 +141,17 @@ gulp.task('default', gulp.parallel(serve, watch));
 /**
  * Deploy to GitHub Pages
  */
-function deploy() {
-  return gulp.src('./_site/**/*').pipe(ghpages());
-}
+// function deploy() {
+//   return gulp.src('./_site/**/*').pipe(ghpages());
+// }
 
+// gulp.task('deploy', gulp.series(jekyll, gulp.parallel(deploy)));
+
+function deploy() {
+  return gulp.src('./_site/**/*')
+    .pipe(ghpages())
+    .on('end', function() {
+      console.log('Deployment completed!');
+    });
+}
 gulp.task('deploy', gulp.series(jekyll, gulp.parallel(deploy)));
