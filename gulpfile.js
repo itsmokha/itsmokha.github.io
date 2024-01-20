@@ -7,6 +7,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var cp = require('child_process');
+const ghpages = require('gulp-gh-pages');
 
 /**
  * Compile and minify sass
