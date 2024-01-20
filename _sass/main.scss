@@ -32,9 +32,9 @@ $fifth-color: #9800AB;
 
 $skillsTypes: languages, data-science, tools;
 $skillsTypesColors: (
-  languages: #FF987A,
-  data-science: #E8796F,
-  tools: #E86FC8,
+  languages: #bf616a,
+  data-science: #a3be8c,
+  tools: #b48ead,
 );
 $skillsCount: calc(length($skillsTypes) + 1);
 $filterButtonWidthLarge: calc((100 - 2.5 * $skillsCount) / $skillsCount);
