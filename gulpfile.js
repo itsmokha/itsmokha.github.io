@@ -147,7 +147,7 @@ gulp.task('default', gulp.parallel(serve, watch));
 
 // gulp.task('deploy', gulp.series(jekyll, gulp.parallel(deploy)));
 
-function deploy() {
+function deploy () {
   return gulp.src('./_site/**/*')
     .pipe(ghpages())
     .on('end', function() {
