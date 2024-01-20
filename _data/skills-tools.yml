@@ -28,3 +28,6 @@
 
 - name: Jupyter
   weight: 5
+
+- name: Hadoop
+  weight: 1
