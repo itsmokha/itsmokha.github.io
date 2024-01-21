@@ -247,4 +247,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: https://raw.githubusercontent.com/itsmokha/itsmokha.github.io/master/docs/screenshot.gif
+[product-screenshot]: https://media.githubusercontent.com/media/itsmokha/itsmokha.github.io/master/docs/screenshot.gif
