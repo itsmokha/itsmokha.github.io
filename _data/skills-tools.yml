@@ -20,8 +20,8 @@
 - name: Excel
   weight: 3
 
-- name: VS Code
-  weight: 3
+- name: ElasticSearch
+  weight: 1
 
 - name: Postman
   weight: 4
@@ -30,4 +30,7 @@
   weight: 5
 
 - name: Hadoop
+  weight: 2
+
+- name: Node.js
   weight: 1
