@@ -26,5 +26,8 @@
 - name: Matplotlib
   weight: 5
 
-- name: Keras
-  weight: 5
+- name: PyTorch
+  weight: 4
+
+- name: vLLM
+  weight: 4

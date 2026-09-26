@@ -5,32 +5,38 @@
 # - name: Git
 #   weight: 5
 
+- name: Kubernetes
+  weight: 5
+
+- name: Docker
+  weight: 5
+
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 5
+- name: Proxmox
+  weight: 4
 
-- name: PowerBI
+- name: Helm
+  weight: 4
+
+- name: TrueNAS / ZFS
+  weight: 4
+
+- name: Prometheus
   weight: 3
 
-- name: Tableau
-  weight: 3
-
-- name: Excel
+- name: Grafana
   weight: 3
 
 - name: ElasticSearch
-  weight: 1
+  weight: 3
 
-- name: Postman
-  weight: 4
-
-- name: Jupyter
-  weight: 5
-
-- name: Hadoop
+- name: n8n
   weight: 2
 
-- name: Node.js
-  weight: 1
+- name: Postman
+  weight: 2
+
+- name: Jupyter
+  weight: 2

@@ -14,6 +14,25 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Self-Hosted Kubernetes Platform
+  descr: "A three-node kubeadm cluster running on a mixed bare metal + VM environment, backed by a RAIDZ2 ZFS pool exposed over iSCSI through democratic-csi. MetalLB for load balancing, ingress-nginx with cert-manager and an internal CA, and a Prometheus/Grafana/Loki observability stack. Runs my own infrastructure day to day."
+#  github: 
+  tags:
+      - tag: Kubernetes
+      - tag: ZFS
+      - tag: Proxmox
+      - tag: Helm
+      - tag: Prometheus
+
+- name: GPU Inference on Consumer Hardware
+  descr: "An OpenAI-compatible inference endpoint serving open-weight models from vLLM on a 16GB RTX 2000 Pro passed through to a VM. Covers quantisation and memory-budget tradeoffs, GPU passthrough under Proxmox, and exposing the service to my own applications over Tailscale."
+#  github: 
+  tags:
+      - tag: vLLM
+      - tag: GPU
+      - tag: Proxmox
+      - tag: Tailscale
+
 - name: Dubai Real Estate Analysis
   descr: "In this project, we scrape data from Bayut.com to create a dataset of over 50 thousand listings to analyse real estate prices in Dubai. We visualized the average prices for each area using PowerBI and used this report to identify the overall market rates by neighborhood."
   github: https://github.com/itsmokha/Dubai-Real-Estate-Analysis

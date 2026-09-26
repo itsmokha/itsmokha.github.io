@@ -5,32 +5,29 @@
 # - name: Language
 #   weight: 5
 
-- name: C
+- name: Python
+  weight: 5
+
+- name: Bash
   weight: 5
 
 - name: SQL
   weight: 4
 
-- name: Java
+- name: TypeScript
   weight: 3
 
-- name: Python
-  weight: 5
+- name: C
+  weight: 3
 
-- name: DAX
+- name: Java
   weight: 2
 
 - name: C++
-  weight: 3
-
-- name: HTML
-  weight: 3
-
-- name: JavaScript
   weight: 2
 
-- name: CSS
-  weight: 2
+- name: DAX
+  weight: 3
 
-- name: Bash Scripting
+- name: YAML
   weight: 3

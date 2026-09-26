@@ -19,12 +19,16 @@
 - title: Abu Dhabi Police
   title-url: 
   date: March 2024 - Present
-  subtitle: Project Engineer
+  subtitle: Systems Engineer
   tags:
     - tag: Solaris
+    - tag: Linux
     - tag: Bash
     - tag: Elasticsearch
     - tag: Openshift
+    - tag: Kubernetes
+    - tag: N8N
+    - tag: Ansible
 
 - title: Midis Group
   title-url: 
@@ -51,6 +55,6 @@
   date: Sep 2020 - Jun 2023
   subtitle: B.S. Computer Science (with Artificial Intelligence)
   tags:
-    - tag: GPA - 3.7/4.0
-    - tag: Deputy' Principal's Award
+    - tag: BSc (Hons) 2:1
+    - tag: Deputy Principal's Award
 
