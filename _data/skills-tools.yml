@@ -20,9 +20,6 @@
 - name: Helm
   weight: 4
 
-- name: TrueNAS / ZFS
-  weight: 4
-
 - name: Prometheus
   weight: 3
 
